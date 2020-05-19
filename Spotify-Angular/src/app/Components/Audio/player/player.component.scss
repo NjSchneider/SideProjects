@@ -1,0 +1,67 @@
+.container {
+  max-height: 100vh;
+  margin: 30px auto 40px auto;
+    .main-toolbar {
+      color: white;
+      .spacer {
+        flex: 1 1 auto;
+      }
+      .toolbar-btn {
+        font-size: 16px;
+        margin-right: 5px;
+        cursor: pointer;
+      }
+    }
+  
+    .content {
+      max-height: 70vh;
+      overflow: scroll;
+      background-color: black;
+      .logo {
+        margin: 2.5rem;
+        text-align: center;
+        font-size: 24px;
+        color: white;
+        text-shadow: 2px 2px 2px black;
+        margin-bottom: 25px;
+        .mat-icon {
+          height: 160px !important;
+          width: 160px !important;
+          font-size: 160px !important;
+        }
+      }
+    }
+  
+    .media-footer {
+      width: 100%;
+      margin-bottom: 0px !important;
+      padding-bottom: 0px !important;
+      .time-slider {
+        width: 100% !important;
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+      .media-action-bar {
+        width: 100%;
+        padding: 2.5rem;
+        justify-content: center;
+        .mat-icon {
+          height: 48px !important;
+          width: 48px !important;
+          font-size: 48px !important;
+        }
+      }
+    }
+  }
+
+  .mat-subheader{
+    color: white;
+  }
+
+  mat-list-item{
+    background-color: darkgrey;
+  }
+
+  .mat-toolbar-row{
+    color: white;
+  }
